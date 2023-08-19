@@ -9,6 +9,7 @@ api = Api(app)
 
 CORS(app)
 
+#Untuk di isi dengan data nama/umur
 identitas = {}
 
 class ControlResource(Resource):
